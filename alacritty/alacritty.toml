@@ -1,0 +1,54 @@
+# GENERAL
+import = [
+"~/.config/alacritty/themes/alacritty-theme/themes/tokyo-night-storm.toml"
+]
+# [shell]
+# program = "/bin/fish"
+# args = ["-|"]
+# working_directory = "None"
+live_config_reload = true
+# ipc_socket = true 
+
+# ENV
+# [env]
+
+# WINDOW
+[window]
+dimensions = {columns = 0, lines = 0}
+position = "None"
+padding = {x = 0, y = 0}
+dynamic_padding = false
+decorations = "None"
+opacity = 1.0
+blur = false
+startup_mode = "Maximized"
+title = "Alacritty"
+dynamic_title = true
+class = {instance = "Alacritty", general = "Alacritty"}
+# decorations_theme_variant = "None"
+resize_increments = false
+
+# FONT
+[font]
+normal = {family = "JetBrains Mono", style = "Regular"}
+bold = {style = "Bold"}
+italic = {style = "Italic"}
+bold_italic = {style = "Bold Italic"}
+size = 25
+offset = {x = 0, y = 0}
+# glyph_offset = {x = 0, y = 0}
+builtin_box_drawing = true
+
+# COLOR - see the alacritty-theme repo
+# BELL - leave as default
+# SELECTION - leave as default
+# CURSOR
+[cursor]
+style = {shape = "Underline", blinking = "Off"}
+vi_mode_style = "None"
+
+# TERMINAL - leave as default 
+# MOUSE - leave as default
+# HINTS - leave as default
+# KEYBOARD - leave as default. If you want to modify, have a look at https://alacritty.org/config-alacritty.html and https://alacritty.org/config-alacritty-bindings.html.
+# DEBUG - leave as default
